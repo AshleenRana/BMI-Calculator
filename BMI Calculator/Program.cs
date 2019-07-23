@@ -9,7 +9,7 @@ namespace BMI_Calculator
     static class Program
     {
         /// <summary>
-        /// The main entry point for the application.
+        /// The main entry point for the application. AShleen
         /// </summary>
         [STAThread]
         static void Main()

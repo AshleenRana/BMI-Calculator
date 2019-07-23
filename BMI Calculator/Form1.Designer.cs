@@ -30,8 +30,6 @@
         {
             this.BmiCalculatorTablePanelLayout = new System.Windows.Forms.TableLayoutPanel();
             this.HeadingLabel = new System.Windows.Forms.Label();
-            this.ImperialRadioButton = new System.Windows.Forms.RadioButton();
-            this.MetricRadioButton = new System.Windows.Forms.RadioButton();
             this.HeightLabel = new System.Windows.Forms.Label();
             this.HeightTextbox = new System.Windows.Forms.TextBox();
             this.WeightLabel = new System.Windows.Forms.Label();
@@ -48,6 +46,8 @@
             this.button9 = new System.Windows.Forms.Button();
             this.Number0Button = new System.Windows.Forms.Button();
             this.emptyButton = new System.Windows.Forms.Button();
+            this.ImperialRadioButton = new System.Windows.Forms.RadioButton();
+            this.MetricRadioButton = new System.Windows.Forms.RadioButton();
             this.BmiCalculatorTablePanelLayout.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -101,30 +101,6 @@
             this.HeadingLabel.TabIndex = 0;
             this.HeadingLabel.Text = "BMI Calculator";
             this.HeadingLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // ImperialRadioButton
-            // 
-            this.ImperialRadioButton.AutoSize = true;
-            this.ImperialRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ImperialRadioButton.Location = new System.Drawing.Point(12, 31);
-            this.ImperialRadioButton.Name = "ImperialRadioButton";
-            this.ImperialRadioButton.Size = new System.Drawing.Size(140, 40);
-            this.ImperialRadioButton.TabIndex = 1;
-            this.ImperialRadioButton.TabStop = true;
-            this.ImperialRadioButton.Text = "Imperial";
-            this.ImperialRadioButton.UseVisualStyleBackColor = true;
-            // 
-            // MetricRadioButton
-            // 
-            this.MetricRadioButton.AutoSize = true;
-            this.MetricRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MetricRadioButton.Location = new System.Drawing.Point(158, 31);
-            this.MetricRadioButton.Name = "MetricRadioButton";
-            this.MetricRadioButton.Size = new System.Drawing.Size(117, 40);
-            this.MetricRadioButton.TabIndex = 1;
-            this.MetricRadioButton.TabStop = true;
-            this.MetricRadioButton.Text = "Metric";
-            this.MetricRadioButton.UseVisualStyleBackColor = true;
             // 
             // HeightLabel
             // 
@@ -339,6 +315,30 @@
             this.emptyButton.TabIndex = 4;
             this.emptyButton.UseVisualStyleBackColor = false;
             // 
+            // ImperialRadioButton
+            // 
+            this.ImperialRadioButton.AutoSize = true;
+            this.ImperialRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ImperialRadioButton.Location = new System.Drawing.Point(12, 31);
+            this.ImperialRadioButton.Name = "ImperialRadioButton";
+            this.ImperialRadioButton.Size = new System.Drawing.Size(140, 40);
+            this.ImperialRadioButton.TabIndex = 1;
+            this.ImperialRadioButton.TabStop = true;
+            this.ImperialRadioButton.Text = "Imperial";
+            this.ImperialRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // MetricRadioButton
+            // 
+            this.MetricRadioButton.AutoSize = true;
+            this.MetricRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MetricRadioButton.Location = new System.Drawing.Point(158, 31);
+            this.MetricRadioButton.Name = "MetricRadioButton";
+            this.MetricRadioButton.Size = new System.Drawing.Size(117, 40);
+            this.MetricRadioButton.TabIndex = 1;
+            this.MetricRadioButton.TabStop = true;
+            this.MetricRadioButton.Text = "Metric";
+            this.MetricRadioButton.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 38F);
@@ -349,7 +349,7 @@
             this.Controls.Add(this.BmiCalculatorTablePanelLayout);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.Margin = new System.Windows.Forms.Padding(7);
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
